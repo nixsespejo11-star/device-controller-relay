@@ -1,0 +1,15 @@
+{
+  "name": "assistive-device-controller-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay server linking the Assistive Device Controller website and ESP32",
+  "main": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
